@@ -1,7 +1,10 @@
-# design-system
+# Deployment Instructions
 
-NovaPay shared React component library.
+To deploy the design system, follow these steps:
 
-## Components
-Button (primary/secondary/ghost/danger), Input, Select, Modal, Toast,
-DataTable, Pagination, StatusBadge
+1. **Build the Library**: Run `npm run build` to compile the components.
+2. **Publish to NPM**: Use `npm publish` to publish the library to the NPM registry.
+3. **Install in Project**: In your project, run `npm install @your-scope/design-system` to install the library.
+4. **Import Components**: Import the components as needed in your React application.
+
+Ensure you have the necessary permissions and configurations set up for deployment.
